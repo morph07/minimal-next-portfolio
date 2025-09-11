@@ -15,10 +15,10 @@ type PagesConfig = {
 export const pagesConfig: PagesConfig = {
   home: {
     title: "Home",
-    description: "Welcome to my portfolio website.",
+    description: "I specialize in creating responsive, user-friendly applications that bridge the gap between design and technology. From interactive front-end experiences to powerful back-end systems, I love building solutions that make an impact.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Ambet Guevarra's portfolio website.",
     },
   },
   skills: {
@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Ambet Guevarra's key skills that define his professional identity.",
     },
   },
   projects: {
@@ -35,7 +35,7 @@ export const pagesConfig: PagesConfig = {
     description: "Showcasing impactful projects and technical achievements.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description: "Ambet Guevarra's projects in building web applications.",
     },
   },
   contact: {
@@ -43,7 +43,7 @@ export const pagesConfig: PagesConfig = {
     description: "Let's connect and explore collaborations.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Ambet Guevarra.",
     },
   },
   contributions: {
@@ -52,15 +52,15 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Contributions",
       description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+        "Ambet Guevarra's open-source contributions and community involvement.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Ambet Guevarra's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Ambet Guevarra's resume.",
     },
   },
   experience: {
@@ -69,7 +69,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Experience",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Ambet Guevarra's professional journey and experience timeline.",
     },
   },
 };

@@ -47,11 +47,16 @@ import {
   SiBootstrap,
   SiCss3,
   SiExpress,
+  SiFirebase,
+  SiFlutter,
   SiGmail,
   SiGraphql,
   SiHtml5,
   SiJavascript,
+  SiLaravel,
+  SiLaravelnova,
   SiLinkedin,
+  SiLinux,
   SiMongodb,
   SiMui,
   SiMysql,
@@ -65,6 +70,7 @@ import {
   SiTailwindcss,
   SiTwitter,
   SiTypescript,
+  SiVuedotjs,
 } from "react-icons/si";
 
 export const Icons = {
@@ -126,6 +132,12 @@ export const Icons = {
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  laravel: SiLaravel,
+  laravelNova: SiLaravelnova,
+  flutter: SiFlutter,
+  firebase: SiFirebase,
+  linux: SiLinux,
+  vue: SiVuedotjs,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

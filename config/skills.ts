@@ -9,6 +9,20 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
+    name: "Laravel",
+    description:
+      "Build robust web applications with elegant syntax using a popular PHP framework.",
+    rating: 5,
+    icon: Icons.laravel,
+  },
+  {
+    name: "Laravel Nova",
+    description:
+      "Create beautiful admin panels for Laravel applications with a powerful administration panel.",
+    rating: 5,
+    icon: Icons.laravelNova,
+  },
+  {
     name: "Next.js",
     description:
       "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
@@ -23,39 +37,18 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "GraphQL",
+    name: "Vue.js",
     description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
+      "Build user interfaces with a progressive JavaScript framework.",
     rating: 5,
-    icon: Icons.express,
+    icon: Icons.vue,
   },
   {
-    name: "Node.js",
+    name: "Flutter",
     description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+      "Build natively compiled applications for mobile, web, and desktop from a single codebase.",
     rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
+    icon: Icons.flutter,
   },
   {
     name: "Typescript",
@@ -63,6 +56,20 @@ export const skillsUnsorted: skillsInterface[] = [
       "Enhance JavaScript with static types, making code more understandable and reliable.",
     rating: 5,
     icon: Icons.typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    description:
+      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+    rating: 5,
+    icon: Icons.tailwindcss,
+  },
+  {
+    name: "Git",
+    description:
+      "Track changes in source code during software development.",
+    rating: 5,
+    icon: Icons.gitBranch,
   },
   {
     name: "Javascript",
@@ -75,15 +82,22 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "HTML 5",
     description:
       "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
+    rating: 5,
     icon: Icons.html5,
   },
   {
     name: "CSS 3",
     description:
       "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
+    rating: 5,
     icon: Icons.css3,
+  },
+    {
+    name: "Linux",
+    description:
+      "Deploy and manage Linux servers for web applications and services.",
+    rating: 5,
+    icon: Icons.linux,
   },
   {
     name: "React Native",
@@ -93,68 +107,32 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
-  {
-    name: "Tailwind CSS",
-    description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
-    icon: Icons.tailwindcss,
-  },
-  {
     name: "AWS",
     description:
       "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
+    rating: 5,
     icon: Icons.amazonaws,
   },
   {
-    name: "Bootstrap",
+    name: "Firebase",
     description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
+      "Build and manage mobile and web applications with Firebase's comprehensive platform.",
+    rating: 5,
+    icon: Icons.firebase,
   },
   {
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 5,
     icon: Icons.mysql,
   },
   {
-    name: "Netlify",
+    name: "Node.js",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
+      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
+    rating: 5,
+    icon: Icons.nodejs,
   },
 ];
 

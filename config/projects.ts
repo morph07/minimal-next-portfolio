@@ -29,25 +29,23 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "built-design",
-    companyName: "Builtdesign",
+    id: "athlife-website",
+    companyName: "AthLife (Website)",
     type: "Professional",
     category: ["Web Dev", "Full Stack", "UI/UX"],
     shortDescription:
-      "Developed and optimized a high-performing website catering to over 4000 users, emphasizing efficiency and maintainability.",
-    websiteLink: "https://builtdesign.in",
+      "Developed a fully responsive website along with a robust admin panel designed for seamless management. The system is powered by a secure and scalable API layer, ensuring smooth communication between the frontend and backend.",
+    websiteLink: "https://athlifeperformance.com",
     techStack: [
+      "Laravel",
       "Next.js",
       "React",
-      "Node.js",
-      "MongoDB",
-      "GraphQL",
-      "Nest.js",
+      "MySQL",
       "Typescript",
     ],
     startDate: new Date("2021-07-01"),
     endDate: new Date("2022-07-01"),
-    companyLogoImg: "/projects/builtdesign/logo.png",
+    companyLogoImg: "/projects/athlife/logo.jpg",
     pagesInfoArr: [
       {
         title: "Landing Page",
@@ -102,7 +100,7 @@ export const Projects: ProjectInterface[] = [
   },
   {
     id: "the-super-quotes",
-    companyName: "The Super Quotes",
+    companyName: "AthLife (Mobile App)",
     type: "Professional",
     category: ["Mobile Dev", "Full Stack", "UI/UX"],
     shortDescription:
