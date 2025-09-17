@@ -1,5 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: [
+      "kalaiyaancoast.ph",
+      "pos.kalaiyaancoast.ph",
+      "booking.kalaiyaancoast.ph",
+    ],
+  },
   async headers() {
     return [
       {
