@@ -22,6 +22,15 @@ exports.screenshots = {
     "/projects/exodus-gym/screenshots/SCR-20250916-ely.png",
     "/projects/exodus-gym/screenshots/SCR-20250916-en1.png"
   ],
+  "gema": [
+    "/projects/gema/screenshots/SCR-20250917-orh.png",
+    "/projects/gema/screenshots/SCR-20250918-h48.png",
+    "/projects/gema/screenshots/SCR-20250918-ip1.png",
+    "/projects/gema/screenshots/SCR-20250918-ir7.png",
+    "/projects/gema/screenshots/SCR-20250918-is7.png",
+    "/projects/gema/screenshots/SCR-20250918-itp.png",
+    "/projects/gema/screenshots/SCR-20250918-itv.png"
+  ],
   "kalaiyaan-booking": [
     "/projects/kalaiyaan-booking/screenshots/SCR-20250913-w1q.png",
     "/projects/kalaiyaan-booking/screenshots/SCR-20250913-w20.png",
@@ -49,6 +58,19 @@ exports.screenshots = {
     "/projects/lto-montalban/screenshots/SCR-20250916-gxu.png",
     "/projects/lto-montalban/screenshots/SCR-20250916-gyo.png",
     "/projects/lto-montalban/screenshots/SCR-20250916-h0u.png"
+  ],
+  "radiomv-alexa": [
+    "/projects/radiomv-alexa/screenshots/SCR-20250919-dev.png"
+  ],
+  "radiomv-roku": [
+    "/projects/radiomv-roku/screenshots/SCR-20250919-da2.png",
+    "/projects/radiomv-roku/screenshots/SCR-20250919-da7.png",
+    "/projects/radiomv-roku/screenshots/SCR-20250919-dab.png"
+  ],
+  "sales-tracker": [
+    "/projects/sales-tracker/screenshots/SCR-20250918-jfy.png",
+    "/projects/sales-tracker/screenshots/SCR-20250918-jhk.png",
+    "/projects/sales-tracker/screenshots/SCR-20250918-jic.png"
   ],
   "tgn": [
     "/projects/tgn/screenshots/SCR-20250916-hc2.png",

@@ -15,7 +15,7 @@ type PagesConfig = {
 export const pagesConfig: PagesConfig = {
   home: {
     title: "Home",
-    description: "I specialize in creating responsive, user-friendly applications that bridge the gap between design and technology. From interactive front-end experiences to powerful back-end systems, I love building solutions that make an impact.",
+    description: "I specialize in creating, deploying, and maintaining responsive, user-friendly applications that bridge the gap between design and technology. From interactive front-end experiences to powerful back-end systems, I love building solutions that make an impact.",
     metadata: {
       title: "Home",
       description: "Ambet Guevarra's portfolio website.",

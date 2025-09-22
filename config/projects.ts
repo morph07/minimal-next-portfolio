@@ -108,14 +108,14 @@ export const Projects: ProjectInterface[] = [
   {
     id: "kalaiyaan-website",
     companyName: "Kalaiyaan Coast (Website)",
-    type: "Professional",
+    type: "Personal",
     category: ["Web Dev", "UI/UX"],
     shortDescription: "A nature and camping resort in Laiya, Batangas, offering serene accommodations, mouthwatering dishes, and various recreational facilities.",
     websiteLink: "https://kalaiyaancoast.ph/",
     techStack: ["GatsbyJS", "React", "Typescript"],
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-04-30"),
-    companyLogoImg: "/projects/kalaiyaan-website/logo.jpg",
+    companyLogoImg: "/projects/kalaiyaan-website/logo.png",
     pagesInfoArr: [
       {
         title: "Resort Overview",
@@ -147,7 +147,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["NexoPOS", "Laravel", "MySQL"],
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-12-31"),
-    companyLogoImg: "/projects/kalaiyaan-pos/logo.jpg",
+    companyLogoImg: "/projects/kalaiyaan-pos/logo.png",
     pagesInfoArr: [
       {
         title: "POS System and Custom Reports Screenshots",
@@ -183,7 +183,7 @@ export const Projects: ProjectInterface[] = [
     techStack: ["Laravel", "Vue.js", "MySQL"],
     startDate: new Date("2024-05-01"),
     endDate: new Date("2024-12-31"),
-    companyLogoImg: "/projects/kalaiyaan-booking/logo.jpg",
+    companyLogoImg: "/projects/kalaiyaan-booking/logo.png",
     pagesInfoArr: [
       {
         title: "Booking Flow",
@@ -262,12 +262,10 @@ export const Projects: ProjectInterface[] = [
       ]
     }
   },
-
-  // --- That's Great News Ticketing System ---
   {
     id: "tgn-ticketing",
     companyName: "That's Great News Ticketing System",
-    type: "Professional",
+    type: "Personal",
     category: ["Web Dev"],
     shortDescription: "Ticketing/helpdesk system for That's Great News.",
     websiteLink: "https://tgn.gomicro.biz/",
@@ -293,61 +291,123 @@ export const Projects: ProjectInterface[] = [
       ]
     }
   },
-
-  // --- GEMA ---
   {
     id: "gema",
     companyName: "GEMA",
-    type: "Professional",
+    type: "Personal",
     category: ["Web Dev"],
-    shortDescription: "Web system for GEMA.",
+    shortDescription: "Manage enterprise assets with AI agent integration for enhanced efficiency.",
     websiteLink: "https://gema.aplaya-laiya.ph/",
-    techStack: ["PHP", "MySQL"],
-    startDate: new Date("2024-01-01"),
-    endDate: new Date("2024-12-31"),
-    companyLogoImg: "",
+    techStack: ["Laravel", "AI Agent", "React"],
+    startDate: new Date("2025-03-01"),
+    endDate: new Date("2025-07-30"),
+    companyLogoImg: "/projects/gema/logo.png",
     pagesInfoArr: [
       {
         title: "Main Page",
         description: "Main page for GEMA system.",
-        imgArr: []
+        imgArr: screenshots['gema'],
       }
     ],
     descriptionDetails: {
       paragraphs: [
-        "A web system for GEMA. (No public info available)",
+        "A comprehensive asset management system with AI agent integration to streamline operations and improve decision-making.",
       ],
       bullets: [
-        "Web management features"
+        "Room Scheduling",
+        "Vehicle Management",
+        "Equipment Borrowing",
+        "Item Procurement",
+        "AI-driven insights",
+        "Reporting and analytics"
       ]
     }
   },
-
-  // --- NorthStar Solutions Inc. Sales Tracker System ---
   {
     id: "northstar-sales-tracker",
     companyName: "NorthStar Solutions Inc. Sales Tracker System",
     type: "Professional",
-    category: ["Web Dev"],
-    shortDescription: "Sales tracker system for NorthStar Solutions Inc.",
+    category: ["Full Stack", "Backend", "DevOps"],
+    shortDescription: "A sales tracker system for NorthStar Solutions Inc. catering to their internal sales tracking needs.",
     websiteLink: "https://salestracker.northstarsolutionsph.com/",
-    techStack: ["PHP", "MySQL"],
+    techStack: ["Laravel", "AWS", "MySQL"],
     startDate: new Date("2024-01-01"),
     endDate: new Date("2024-12-31"),
-    companyLogoImg: "",
+    companyLogoImg: "/projects/sales-tracker/logo.png",
     pagesInfoArr: [
       {
-        title: "Main Page",
-        description: "Main page for sales tracker system.",
-        imgArr: []
+        title: "Screenshots",
+        description: "Screenshots of the sales tracker system.",
+        imgArr: screenshots['sales-tracker'],
       }
     ],
     descriptionDetails: {
       paragraphs: [
-        "A sales tracker system for NorthStar Solutions Inc. (No public info available)",
+        "A robust sales tracking system for NorthStar Solutions Inc., designed to streamline and enhance their internal sales processes.",
       ],
       bullets: [
-        "Sales tracking features"
+        "Sales data management",
+        "Reporting and analytics",
+        "User authentication",
+        "AWS deployment and management"
+      ]
+    }
+  },
+  {
+    id: "radiomv-roku",
+    companyName: "RadioMV Roku App",
+    type: "Personal",
+    category: ["Roku", "Streaming"],
+    shortDescription: "A Roku app for RadioMV, providing streaming access to live radio and podcasts.",
+    websiteLink: "https://channelstore.roku.com/details/aedff11847bcf39a053f934a3cada956:91c9912c3cf315816113fd2b5a898eb1/radiomv",
+    techStack: ["Roku", "BrightScript", "SceneGraph"],
+    startDate: new Date("2023-05-01"),
+    endDate: new Date("2023-07-31"),
+    companyLogoImg: "/projects/radiomv-roku/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Screenshots",
+        description: "Screenshots of the RadioMV Roku app.",
+        imgArr: screenshots['radiomv-roku'],
+      }
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "A Roku application for RadioMV, enabling users to stream live radio and access podcasts seamlessly on their Roku devices.",
+      ],
+      bullets: [
+        "User-friendly interface",
+        "Live radio streaming",
+        "Podcast access",
+      ]
+    }
+  },
+  {
+    id: "radiomv-alexa",
+    companyName: "RadioMV Alexa App",
+    type: "Personal",
+    category: ["Alexa", "Streaming", "Voice"],
+    shortDescription: "An Alexa app for RadioMV, providing streaming access to live radio and podcasts.",
+    websiteLink: "https://www.amazon.com/s?k=RadioMv&i=alexa-skills&ref=bnav_search_go",
+    techStack: ["Alexa", "Node.js", "AWS Lambda"],
+    startDate: new Date("2022-10-01"),
+    endDate: new Date("2022-12-31"),
+    companyLogoImg: "/projects/radiomv-roku/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Screenshots",
+        description: "Screenshots of the RadioMV Alexa app.",
+        imgArr: screenshots['radiomv-alexa'],
+      }
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "An Alexa skill for RadioMV, allowing users to stream live radio and access podcasts using voice commands on Alexa-enabled devices.",
+      ],
+      bullets: [
+        "Voice command interface",
+        "Live radio streaming",
+        "Podcast access",
       ]
     }
   },
