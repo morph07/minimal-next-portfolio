@@ -60,7 +60,28 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Leadership"
+  | "Project Management"
+  | "Cloud Computing"
+  | "IT Management"
+  | "Cybersecurity"
+  | "Vendor Management"
+  | "SEO"
+  | "Keyword Research"
+  | "Content Optimization"
+  | "Google Analytics"
+  | "REST API"
+  | "GatsbyJS"
+  | "NexoPOS"
+  | "Expo"
+  | "FreeScout"
+  | "AI Agent"
+  | "Roku"
+  | "BrightScript"
+  | "SceneGraph"
+  | "Alexa"
+  | "AWS Lambda";
 
 export type ValidCategory =
   | "Full Stack"
@@ -70,7 +91,11 @@ export type ValidCategory =
   | "Web Dev"
   | "DevOps"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Roku"
+  | "Streaming"
+  | "Alexa"
+  | "Voice";
 
 export type ValidExpType = "Personal" | "Professional";
 
