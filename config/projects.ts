@@ -263,6 +263,66 @@ export const Projects: ProjectInterface[] = [
     }
   },
   {
+    id: "single-ticketing-system",
+    companyName: "LTO Ticketing System",
+    type: "Professional",
+    category: ["Mobile Dev", "Backend", "DevOps"],
+    shortDescription: "Mobile app for LTO Single Ticketing System.",
+    websiteLink: "https://ltoportal.gomicro.biz/",
+    techStack: ["React Native", "Expo", "Laravel"],
+    startDate: new Date("2023-01-01"),
+    endDate: new Date("2023-03-31"),
+    companyLogoImg: "/projects/single-ticketing-system/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Screenshots",
+        description: "Screenshots of the mobile app.",
+        imgArr: screenshots['single-ticketing-system'],
+      }
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "A mobile app for LTO Single Ticketing System, allowing users to issue apprehension and manage their tickets on the go.",
+      ],
+      bullets: [
+        "Issue and manage tickets",
+        "User authentication",
+        "Real-time updates",
+        "Offline support"
+      ]
+    }
+  },
+  {
+    id: "lto-telehealth",
+    companyName: "LTO Telehealth System",
+    type: "Professional",
+    category: ["Web Dev", "Backend", "DevOps"],
+    shortDescription: "Telehealth system for LTO accredited clinics and physicians.",
+    websiteLink: "https://telehealth.gomicro.biz/",
+    techStack: ["Laravel", "React", "MySQL"],
+    startDate: new Date("2025-06-01"),
+    endDate: new Date("2025-08-31"),
+    companyLogoImg: "/projects/lto-telehealth/logo.png",
+    pagesInfoArr: [
+      {
+        title: "Screenshots",
+        description: "Screenshots of the telehealth system.",
+        imgArr: screenshots['lto-telehealth'],
+      }
+    ],
+    descriptionDetails: {
+      paragraphs: [
+        "A telehealth system for LTO accredited clinics and physicians, providing remote consultation and patient management features.",
+      ],
+      bullets: [
+        "Remote consultations",
+        "Patient management",
+        "Appointment scheduling",
+        "Medical records management"
+      ]
+    }
+  },
+  {
     id: "tgn-ticketing",
     companyName: "That's Great News Ticketing System",
     type: "Personal",

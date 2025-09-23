@@ -59,6 +59,13 @@ exports.screenshots = {
     "/projects/lto-montalban/screenshots/SCR-20250916-gyo.png",
     "/projects/lto-montalban/screenshots/SCR-20250916-h0u.png"
   ],
+  "lto-telehealth": [
+    "/projects/lto-telehealth/screenshots/SCR-20250923-gop.png",
+    "/projects/lto-telehealth/screenshots/SCR-20250923-gpc.png",
+    "/projects/lto-telehealth/screenshots/SCR-20250923-gpq.png",
+    "/projects/lto-telehealth/screenshots/SCR-20250923-gpv.png",
+    "/projects/lto-telehealth/screenshots/SCR-20250923-gqf.png"
+  ],
   "radiomv-alexa": [
     "/projects/radiomv-alexa/screenshots/SCR-20250919-dev.png"
   ],
@@ -71,6 +78,12 @@ exports.screenshots = {
     "/projects/sales-tracker/screenshots/SCR-20250918-jfy.png",
     "/projects/sales-tracker/screenshots/SCR-20250918-jhk.png",
     "/projects/sales-tracker/screenshots/SCR-20250918-jic.png"
+  ],
+  "single-ticketing-system": [
+    "/projects/single-ticketing-system/screenshots/Screenshot_20250923_103712_green-light.jpg",
+    "/projects/single-ticketing-system/screenshots/Screenshot_20250923_103730_green-light.jpg",
+    "/projects/single-ticketing-system/screenshots/Screenshot_20250923_103740_green-light.jpg",
+    "/projects/single-ticketing-system/screenshots/Screenshot_20250923_103756_green-light.jpg"
   ],
   "tgn": [
     "/projects/tgn/screenshots/SCR-20250916-hc2.png",
