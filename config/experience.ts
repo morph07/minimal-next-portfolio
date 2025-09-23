@@ -17,10 +17,10 @@ export interface ExperienceInterface {
 export const experiences: ExperienceInterface[] = [
   {
     id: "gbms",
-    position: "Chief Technology Officer",
+    position: "Gen. Manager / Chief Technology Officer",
     company: "Grand Business Management Services",
     location: "Rizal, Philippines",
-    startDate: new Date("2022-07-01"),
+    startDate: new Date("2021-07-01"),
     endDate: new Date("2025-09-01"),
     description: [
       "Leading the technology strategy and development for a startup providing business solutions to SMEs.",
@@ -37,8 +37,8 @@ export const experiences: ExperienceInterface[] = [
       "Project Management",
       "Cloud Computing",
     ],
-    companyUrl: "https://www.ubs.com",
-    logo: "/logo.png",
+    companyUrl: "#",
+    logo: "/experience/gbmc.png",
   },
   {
     id: "northstar-it-manager",
@@ -46,7 +46,7 @@ export const experiences: ExperienceInterface[] = [
     company: "NorthStar Solutions Inc.",
     location: "Pasig City, Philippines",
     startDate: new Date("2016-04-01"),
-    endDate: new Date("2022-07-01"),
+    endDate: new Date("2021-07-01"),
     description: [
       "Managed IT infrastructure and operations for a mid-sized enterprise.",
       "Led a team of IT professionals in maintaining system security and performance.",
@@ -64,7 +64,7 @@ export const experiences: ExperienceInterface[] = [
       "Vendor Management",
     ],
     companyUrl: "https://agentprod.com",
-    logo: "/experience/agentprod-logo.png",
+    logo: "/experience/northstar-logo.png",
   },
   {
     id: "northstar-software-engineer",
@@ -93,7 +93,7 @@ export const experiences: ExperienceInterface[] = [
       "Javascript",
     ],
     companyUrl: "https://builtdesign.in",
-    logo: "/experience/builtdesign-logo.png",
+    logo: "/experience/northstar-logo.png",
   },
   {
     id: "stratvisions",
@@ -119,6 +119,6 @@ export const experiences: ExperienceInterface[] = [
       "Google Analytics",
     ],
     companyUrl: "https://builtdesign.in",
-    logo: "/experience/builtdesign-logo.png",
+    logo: "/experience/stratvisions_logo.jpg",
   },
 ];

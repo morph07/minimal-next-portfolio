@@ -16,19 +16,13 @@ export const SocialLinks: SocialInterface[] = [
   },
   {
     name: "LinkedIn",
-    username: "Ambet Guevarra",
+    username: "Lamberto Guevarra",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/ambet-guevarra",
-  },
-  {
-    name: "Twitter",
-    username: "@ambetguevarra",
-    icon: Icons.twitter,
-    link: "https://twitter.com/ambetguevarra",
+    link: "https://www.linkedin.com/in/lamberto-guevarra-b47a36109",
   },
   {
     name: "Gmail",
-    username: "ambet.guevarra02",
+    username: "lambertorguevarra",
     icon: Icons.gmail,
     link: "mailto:lambertorguevarra@gmail.com",
   },

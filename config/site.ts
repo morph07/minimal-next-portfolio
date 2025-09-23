@@ -4,12 +4,12 @@ export const siteConfig = {
   username: "ambetguevarra",
   description:
     "Ambet Guevarra's portfolio - This portfolio showcases my skills, projects, and professional experience as a Full Stack Developer.",
-  url: "https://ambetguevarra.xyz",
+  url: "https://me.gomicro.biz",
   links: {
     twitter: "https://x.com/ambetguevarra",
     github: "https://github.com/morph07",
   },
-  ogImage: "https://ambetguevarra.xyz/profile-img.jpg",
+  ogImage: "https://me.gomicro.biz/profile-img.jpg",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
