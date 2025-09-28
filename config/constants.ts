@@ -81,7 +81,10 @@ export type ValidSkills =
   | "BrightScript"
   | "SceneGraph"
   | "Alexa"
-  | "AWS Lambda";
+  | "AWS Lambda"
+  | "Consultancy"
+  | "Healthcare"
+  | "Training & Development";
 
 export type ValidCategory =
   | "Full Stack"

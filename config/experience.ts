@@ -17,7 +17,7 @@ export interface ExperienceInterface {
 export const experiences: ExperienceInterface[] = [
   {
     id: "gbms",
-    position: "Gen. Manager / Chief Technology Officer",
+    position: "Full Stack Developer / Operations Manager",
     company: "Grand Business Management Services",
     location: "Rizal, Philippines",
     startDate: new Date("2021-07-01"),
@@ -39,6 +39,29 @@ export const experiences: ExperienceInterface[] = [
     ],
     companyUrl: "#",
     logo: "/experience/gbmc.png",
+  },
+  {
+    id: "pts",
+    position: "Software Developer Consultant",
+    company: "Prime Total Solutions",
+    location: "Pasig City, Philippines",
+    startDate: new Date("2020-12-01"),
+    endDate: new Date("2022-06-01"),
+    description: [
+      "Provided expert consultancy on software development projects, focusing on healthcare applications.",
+      "Advised on best practices for code quality, security, and performance optimization.",
+      "Conducted training sessions for development teams to enhance their skills and knowledge.",
+    ],
+    achievements: [
+      "Successfully guided the development of a telemedicine platform that served thousands of users during the pandemic.",
+    ],
+    skills: [
+      "Consultancy",
+      "Healthcare",
+      "Training & Development",
+    ],
+    companyUrl: "#",
+    logo: "/experience/pts.png",
   },
   {
     id: "northstar-it-manager",

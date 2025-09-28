@@ -9,7 +9,7 @@ export const siteConfig = {
     twitter: "https://x.com/ambetguevarra",
     github: "https://github.com/morph07",
   },
-  ogImage: "https://me.gomicro.biz/profile-img.jpg",
+  ogImage: "https://ambet.gomicro.biz/profile-img.jpg",
   iconIco:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
   logoIcon:
