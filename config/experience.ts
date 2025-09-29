@@ -17,7 +17,7 @@ export interface ExperienceInterface {
 export const experiences: ExperienceInterface[] = [
   {
     id: "gbms",
-    position: "Full Stack Developer / Operations Manager",
+    position: "General Manager | Full Stack Developer",
     company: "Grand Business Management Services",
     location: "Rizal, Philippines",
     startDate: new Date("2021-07-01"),
